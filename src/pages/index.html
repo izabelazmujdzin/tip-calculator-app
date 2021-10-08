@@ -147,36 +147,40 @@
   <body>
     <main>
       <img class="logo" src="../assets/img/logo.svg" />
-      <div class="calculator">
-        <section>
-          <label>
+      <div class="grid">
+        <section class="calculator">
+          <label class="calculator__descrption">
             Bill
-            <input name="Bill" />
+            <input class="calculator__input" name="Bill" />
           </label>
-          <h2>Select tip</h2>
-          <button>5%</button>
-          <button>10%</button>
-          <button>15%</button>
-          <button>25%</button>
-          <button>50%</button>
-          <input name="Custom" placeholder="Custom" />
-          <label>
+          <h2 class="calculator__descrption">Select tip</h2>
+          <button class="calculator__button">5%</button>
+          <button class="calculator__button">10%</button>
+          <button class="calculator__button">15%</button>
+          <button class="calculator__button">25%</button>
+          <button class="calculator__button">50%</button>
+          <input
+            class="calculator__button--custom"
+            name="Custom"
+            placeholder="Custom"
+          />
+          <label class="calculator__descrption">
             Number of people
-            <input name="Number of people" />
+            <input class="calculator__input" name="Number of people" />
           </label>
         </section>
-        <section>
-          <div>
-            <h2>Tip account</h2>
-            <p>/person</p>
-            <span>0</span>
+        <section class="result">
+          <div class="result__tip-account">
+            <h2 class="result__title">Tip account</h2>
+            <p class="result__subtitle">/person</p>
+            <span class="result__score">0</span>
           </div>
-          <div>
-            <h2>Total</h2>
-            <p>/person</p>
-            <span>0</span>
+          <div class="result__tip-account">
+            <h2 class="result__title">Total</h2>
+            <p class="result__subtitle">/person</p>
+            <span class="result__score">0</span>
           </div>
-          <button>Reset</button>
+          <button class="result__button">Reset</button>
         </section>
       </div>
     </main>
