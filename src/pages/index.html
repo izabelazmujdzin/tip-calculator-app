@@ -145,9 +145,40 @@
     />
   </head>
   <body>
-    <div class="hello">
-      <img class="hello__logo" src="../assets/img/logo.svg" alt="WTF " />
-      <span class="hello__circles"></span>
-    </div>
+    <main>
+      <img class="logo" src="../assets/img/logo.svg" />
+      <div class="calculator">
+        <section>
+          <label>
+            Bill
+            <input name="Bill" />
+          </label>
+          <h2>Select tip</h2>
+          <button>5%</button>
+          <button>10%</button>
+          <button>15%</button>
+          <button>25%</button>
+          <button>50%</button>
+          <input name="Custom" placeholder="Custom" />
+          <label>
+            Number of people
+            <input name="Number of people" />
+          </label>
+        </section>
+        <section>
+          <div>
+            <h2>Tip account</h2>
+            <p>/person</p>
+            <span>0</span>
+          </div>
+          <div>
+            <h2>Total</h2>
+            <p>/person</p>
+            <span>0</span>
+          </div>
+          <button>Reset</button>
+        </section>
+      </div>
+    </main>
   </body>
 </html>

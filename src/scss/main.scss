@@ -1,11 +1,10 @@
-@import "~normalize.css";
-
-@import "_variables";
-@import "modules/hello.scss";
+@import '~normalize.css';
+@import '_variables';
+@import 'modules/hello.scss';
 
 body {
-  background: $wtf;
-  color: #fff;
+  background: hsl(186, 42%, 72%);
+  color: hsl(184, 14%, 56%);
   display: flex;
   align-items: center;
   justify-content: center;
